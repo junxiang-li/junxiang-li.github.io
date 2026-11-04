@@ -1,69 +1,146 @@
 <html>
 <head>
     <title>Junxiang Li Homepage</title>
-    <meta http-equiv="Content Type" content="text/html" charset="UTF-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="doc/theme.css">
     <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
+            background-color: #f7f9fc;
+            color: #2c3e50;
+            margin: 0;
+            padding: 0;
+            line-height: 1.65;
+        }
+        #layout-content {
+            max-width: 1100px;
+            margin: 30px auto !important;
+            background: #ffffff;
+            padding: 32px 40px;
+            border-radius: 14px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+        }
+        h1 {
+            color: #1a365d;
+            font-weight: 600;
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+        h2 {
+            color: #1a365d;
+            border-left: 4px solid #3182ce;
+            padding-left: 12px;
+            font-weight: 600;
+            margin-top: 36px;
+            margin-bottom: 16px;
+        }
+        .contents {
+            padding: 12px 16px;
+            background-color: #fbfdff;
+            border-radius: 10px;
+            border: 1px solid #e8edf3;
+        }
+        hr {
+            border: none;
+            height: 1px;
+            background: #cbd5e0;
+            margin: 28px 0;
+        }
+        li {
+            margin: 16px 5;
+            padding-left: 4px;
+        }
+        a {
+            color: #2b6cb0;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        #footer {
+            margin-top: 40px;
+            color: #718096;
+            font-size: 0.92em;
+        }
         @media (max-width: 768px) {
+            #layout-content {
+                margin: 12px;
+                padding: 20px;
+            }
             #divProfessionalService td {
-                font-size: 16px; /* 可根据需要调整字体大小 */
+                font-size: 16px;
+            }
+            table tr {
+                display: block;
+            }
+            table td {
+                display: block;
+                width: 100% !important;
+                padding: 10px 0 !important;
+            }
+            #photo {
+                float: none !important;
+                text-align: center;
+                margin-top: 20px;
+            }
+            #photo img {
+                width: 160px !important;
+                height: auto !important;
+            }
+            #header {
+                float: none !important;
+                text-align: center;
             }
         }
-    </style></head>
-
+    </style>
+</head>
 <body>
-<div id="layout-content" style="margin-top:25px; margin-bottom:25px;">
-
+<div id="layout-content">
     <table width="100%" border="0" align="center">
         <tr>
             <td width="5%"></td>
             <td width="60%">
                 <div id="header" style="float:left">
                     <h1>李峻翔 Junxiang Li</h1>
-                    <p> 副研究员（Associate Professor）</p>
-                    <p> 国防科技大学智能科学学院（National University of Defense Technology, NUDT）</p>
+                    <p> 国防科技大学智能科学学院、未来技术学院</p>
+                    <p> 副研究员、硕导（控制科学与工程/电子信息专业）、室副主任</p>
+                    <p> 湖南省优青，国防科技大学优秀教师</p>
                     <p><em> Email: lijunxiang@nudt.edu.cn, enginelee@yeah.net </em></p>
-                    <!--
-            <p> <a href="https://scholar.google.com/citations?user=08U8joq2FOQC&hl=zh-CN" target="_blank"><img src="./pic/gs.png" height="30px" style="margin-bottom:-3px"></a>-->
-                    <a href="https://www.researchgate.net/profile/Li-Junxiang" target="_blank"><img
-                            src="./pic/researchgate.png" height="30px" style="margin-bottom:-3px"></a>
-                    <a href="https://github.com/junxiang-li" target="_blank"><img src="./pic/github.png" height="30px"
-                                                                                  style="margin-bottom:-3px"></a>
+                    <!--             <p> <a href="https://scholar.google.com/citations?user=08U8joq2FOQC&hl=zh-CN" target="_blank"><img src="./pic/gs.png" height="30px" style="margin-bottom:-3px"></a>-->
                     </p>
-
                 </div>
             </td>
             <td width="30%">
                 <div id="photo" style="float:right;">
-                    <img src="./pic/photo_ljx.jpg" alt="my photo" style="width:219px;height:317px;">
+                    <img src="./pic/photo_ljx.jpg" alt="my photo" style="width:219px;height:317px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.12);">
                 </div>
             </td>
             <td width="5%"></td>
         </tr>
     </table>
 
-
     <table width="100%" border="0" align="center">
-        <!-- *******************************************************************************************************************-->
-        <tr>
-            <td width="5%"></td>
-            <td width="90%">
-                <div id="PersonalIntro" class="contents">
-                    <h2> 个人基本信息 </h2>
-                    <table id="PersonalIntro_table" border="0" width="100%">
-                        <tbody>
-                        <br>硕导（控制科学与工程/电子信息专业），
-                        教研室副主任（负责研究生招生、教育管理等工作）。</br>
-                        <br>神十三载人航天任务地面无人搜救团队领队，我军某型无人车装备主任设计师，军队精品课程主讲人，获湖南省自科青年基金B类（优青）项目资助。</br>
-                        <br>荣立个人/团体三等功各<b> 1 </b>次，嘉奖<b> 8 </b>次，被评为校优秀共产党员<b> 1 </b>次，“四有”优秀个人<b> 2 </b>次。</br>
-                        </tbody>
-                    </table>
-                    <hr>
-                </div>
-            </td>
-            <td width="5%"></td>
-        </tr>
-
+        <!--        <tr>-->
+        <!--            <td width="5%"></td>-->
+        <!--            <td width="90%">-->
+        <!--                <div id="PersonalIntro" class="contents">-->
+        <!--                    <h2> 个人基本信息 </h2>-->
+        <!--                    <table id="PersonalIntro_table" border="0" width="100%">-->
+        <!--                        <tbody>-->
+        <!--                        <br>硕导-->
+        <!--                        教研室副主任。</br>-->
+        <!--                        <br>湖南省自科青年基金B类（优青）项目资助，国防科技大学优秀新星教师。</br>-->
+        <!--                        </tbody>-->
+        <!--                    </table>-->
+        <!--                    <hr>-->
+        <!--                </div>-->
+        <!--            </td>-->
+        <!--            <td width="5%"></td>-->
+        <!--        </tr>-->
         <!-- *******************************************************************************************************************-->
         <tr>
             <td width="5%"></td>
@@ -82,38 +159,105 @@
                             </td>
                         </tr>
                         <tr>
-                            <td> [3] 教育部学位与研究生教育发展中心研究生教育评估监测专家库专家（2025年至今）。<br>
+                            <td> [3] 教育部学位与研究生教育发展中心研究生教育评估监测专家库专家。<br>
                             </td>
                         </tr>
                         <tr>
-                            <td> [4] 《无人系统技术》期刊<b>青年编委</b>（2024年至今）。<br>
+                            <td> [4] 担任《汽车工程》(EI，高质量科技期刊T1级别）、《无人系统技术》期刊<b>青年编委</b>。<br>
                             </td>
                         </tr>
                         <tr>
                             <td> [5] Nature子刊，IEEE Transactions on ITS，IEEE Transactions on VT，IEEE Transactions on ETCI
-                                等10余本<b>SCI期刊审稿人</b>。
+                                ，JFR等10余本<b>SCI期刊审稿人</b>。
                             </td>
                         </tr>
                         </tbody>
                     </table>
-                    <hr>
                 </div>
             </td>
             <td width="5%"></td>
         </tr>
         <!-- *******************************************************************************************************************-->
+        <!-- *******************************************************************************************************************-->
+        <tr>
+            <td width="5%"></td>
+            <td width="90%">
+                <div id="pub" class="contents">
+                    <h2> 代表论文  <a href="https://www.researchgate.net/profile/Li-Junxiang" target="_blank"><img
+                            src="./pic/researchgate.png" height="20px" style="margin-bottom:-3px"></a></h2>
+                    面向复杂越野环境自主无人系统智能决策规划与空地异构协同开展研究，在IEEE T-ITS、T-VT、CVPR、ICRA、IROS等机器人与智能交通领域发表<b>SCI/EI论文40余篇</b>。
+                    <br>
+                    部分论文得到长江特聘教授、欧洲科学院院士Yaochu Jin，荷兰代尔夫特理工杰出教授Serge Hoogendoorn，SAE/ASME/AAIA/IEEE Fellow，ASME C.S.D创新实践奖获得者Junmin Wang等专家肯定评述。
+                    <br>
+                    以下是代表性论文:<span style="font-size: 0.6em;">
+                    (<span>&#8224</span> indicates equal contribution, and * indicates corresponding authorship)</span>
+                    <li>Junxiang Li&#8224, Tao Wu&#8224, Xin Xu, Huijing Zhao. How to enhance the interpretability of learning-based motion planning for intelligent vehicles: A survey[J]. IEEE Transactions on Intelligent Transportation Systems, 2025, 26(8): 11227-11248. <span style="color: #992e2e;">(1区Top)</span> <span style="font-size:0.8em; color:#555;">【领域综述】</span>
+                    </li>
+                    <li>Junxiang Li, Liang Yao, Xin Xu, Bang Cheng, Junkai Ren. Deep reinforcement learning for
+                        pedestrian collision avoidance and human-machine cooperative driving[J]. Information Sciences
+                        (IS), 2020, 532: 110-124. <span style="color: #992e2e;">(JCR Q1，自动化学会A类，中国兵工学会T1类)</span> <span style="font-size:0.8em; color:#555;">【高被引论文】</span></li>
+                    <li>Bowen Li ,Tao Wu, Youjin Yu, Junxiang Li*. End-to-end autonomous guidance method integrated with mixture-of-experts for intelligent vehicles[J]. IEEE Transactions on Vehicular Technology, 2026, 75(2): 1976-1989.<span style="color: #992e2e;">(2区Top，自动化学会A类)</span>
+                    </li>
+                    <li>Youjin Yu, Junxiang Li*, Bowen Li, Tao Wu* and Huijing Zhao. EES: A data-driven end-to-end escorting system via spatiotemporal feature fusion[J]. IEEE Robotics and Automation Letters, 2025, 10(11): 12253-12260.<span style="color: #992e2e;"> (2区Top，自动化学会A类)</span></li>
+                    <li>Yang Chen, Xieyuanli Chen, Junxiang Li, Jie Tang and Tao Wu. “SinGeo: Unlock Single Model's Potential for Robust Cross-View Geo-Localization.” (2026).  Computer Vision and Pattern Recognition 2026. <span style="color: #992e2e;">（CCF-A类会议）</span></li>
+                    <li>Chenggang Wang, Tao Wu, Pengnian Zhang, Junxiang Li*. 2025. Elevation-Aware Path Planning with Learning Optimal Probability for Autonomous Driving. 28th IEEE International Conference on
+                        Intelligent Transportation Systems. <span style="color: #992e2e;">(自动化学会A类会议)</span>
+                    </li>
+                    <li>Yubin Zeng, Tao Wu, Shouzheng Qi, Junxiang Li, Youjin Yu, Xingyu Duan. 2025. Simpler ls Better: Revisiting Doppler Velocity for Enhancing Moving Object Tracking with FMCW LiDAR. 2025 IROS. <span style="color: #992e2e;">（自动化学会A类会议）</span></li>
+                </div>
+            </td>
+            <td width="5%" align="left">
+        </tr>
 
+        <!-- *******************************************************************************************************************-->
+        <!-- *******************************************************************************************************************-->
+        <tr>
+            <td width="5%"></td>
+            <td width="90%">
+                <div id="patents" class="contents">
+                    <h2> 科研项目与影响  <a href="https://github.com/junxiang-li" target="_blank"><img src="./pic/github.png" height="20px"
+                        style="margin-bottom:-3px"></a></h2>
+                    近5年，多次参与无人系统重大活动，主要负责地面无人平台自主规划系统。担任<b>神十三载人航天任务地面无人搜救团队领队</b>，2025年“九三阅兵”中<b>班组伴随无人车主任设计师</b>。
+                    <br>
+                    [1] 主持国家自然科学基金<b>面上项目、湖南省青B项目、后勤重点项目子课题</b>等科研项目3项，主持完成军委科技委173技术基金（重点项目）、××预研项目、国家自然科学基金青年基金等科研项目7项，作为骨干参与173重大项目、国家自然科学基金区域联合基金等国家、军队重点项目20余项。
+                    <br>
+                    [2] 申请专利/软著15项（授权10项），科技成果转换1项。
+                    <br>
+                    [3] 参加2023陆上无人系统挑战赛A1组比赛获第二名，国家自然科学基金委员会中国智能车未来挑战赛获第三名。
+                </div>
+            </td>
+            <td width="5%" align="left">
+        </tr>
+        <!-- *******************************************************************************************************************-->
+        <!-- *******************************************************************************************************************-->
+        <tr>
+            <td width="5%"></td>
+            <td width="90%">
+                <div id="react" class="contents">
+                    <h2>教学与人才培养成果</h2>
+                    [1] 主讲《图像处理与理解》、《数字图像处理》等课程，多次课堂教学评价优秀，在2024年春季校教学能手比赛中获<b>一等奖（决赛第一名）</b>，2026年被评为校优秀教师（新星教师）。
+                    <br>
+                    [2] 1门主讲课程被评为全军精品在线教育课程，1门被评为校级精品课程，负责课程被评为校级精品在线教育微课；获评<b>××理论创新一等奖、校教学成果二等奖</b>。
+                    <br>
+                    [3] 主持<b>湖南省本科教改课题（重点课题）</b>1项，参与1项（排名第3），主持完成校级本科教学教改课题1项。
+                    <br>
+                    [4] 指导学生参与全国大学生智能车竞赛、大学生工程创新大赛等高水平A类赛事，荣获全国一等奖2项、二等奖2项、赛区/省级奖项10余项，被评为第二十届大学生智能车竞赛<b>全国优秀指导教师</b>。
+                </div>
+            </td>
+            <td width="5%" ></td>
+        </tr>
+        <!-- *******************************************************************************************************************-->
         <!-- *******************************************************************************************************************-->
         <tr>
             <td width="5%"></td>
             <td width="90%">
                 <div id="bio" class="contents">
-                    <h2>团队简介 <!-- <a href="./doc/cv-2022.pdf" target="_blank">[CV]</a> --></h2>
-                    <h2>PLUS Team——Planning Linked Unmanned System</h2>
-                    <p> <b>价值观：谋胜·自主·协作</b>
-                        <li>谋胜：以智能无人系统核心军事价值为导向，驱动团队成员在技术攻关中追求卓越与突破。</li>
-                        <li>自主：锚定智能无人系统高自主性相关前沿技术方向，践行技术创新与成员主动成长的双重承诺。</li>
-                        <li>协作：聚焦人机协同、空地协同与团队协作三大维度，构建技术与管理高效联动的协同发展生态。</li>
+                    <h2>团队简介 PLUS：Planning Linked Unmanned System</h2>
+                    <h2></h2>
+                    <p> <b>价值观：</b>
+                    <li><b>谋胜</b>：以智能无人系统核心军事价值为导向，驱动团队成员在技术攻关中追求卓越与突破。</li>
+                    <li><b>自主</b>：锚定智能无人系统高自主性相关前沿技术方向，践行技术创新与成员主动成长的双重承诺。</li>
+                    <li><b>协作</b>：聚焦人机协同、空地协同与团队协作三大维度，构建技术与管理高效联动的协同发展生态。</li>
                     <p> <b>研究方向：</b>
                     <p> 智能无人系统正成为全球新质生产力、军事领域竞争的战略高地。
                         本团队针对军事场景下<u>空地异构无人系统</u><b>协同决策与自主规划</b>的核心难题，聚焦以下前沿方向，致力于让无人系统<b>鲁棒、高效、可信赖</b>工作。
@@ -122,7 +266,7 @@
                         <!-- 第一行：无人车复杂环境自主规划 -->
                         <tr style="border-bottom: 1px solid #ccc;">
                             <td width="50%" valign="top" style="padding: 20px">
-                                <img src="./pic/GlobalPlanning.png" alt="planning_without_guide" style="width: 100%; height: auto; display: block;">
+                                <img src="./pic/GlobalPlanning.png" alt="planning_without_guide" style="width: 100%; height: auto; display: block; border-radius:6px;">
                             </td>
                             <td width="70%" valign="top" style="padding: 20px">
                                 <p><strong>未涉环境下空地协同任务规划技术</strong>
@@ -132,7 +276,7 @@
                         </tr>
                         <tr style="border-bottom: 1px solid #ccc;">
                             <td width="50%" valign="top" style="padding: 20px">
-                                <img src="./pic/CoPlanning.png" alt="空地异构平台协同决策照片" style="width: 100%; height: auto; display: block;">
+                                <img src="./pic/CoPlanning.png" alt="空地异构平台协同决策照片" style="width: 100%; height: auto; display: block; border-radius:6px;">
                             </td>
                             <td width="70%" valign="top" style="padding: 20px">
                                 <p><strong>空地异构平台协同决策技术</strong>
@@ -141,9 +285,8 @@
                         </tr>
                         <!-- 第三行：多学科融合创新研究 -->
                         <tr>
-                        <tr>
                             <td width="30%" valign="top" style="padding: 20px">
-                                <img src="./pic/EEPlanning.png" alt="多学科融合创新研究照片" style="width: 100%; height: auto; display: block;">
+                                <img src="./pic/EEPlanning.png" alt="多学科融合创新研究照片" style="width: 100%; height: auto; display: block; border-radius:6px;">
                             </td>
                             <td width="70%" valign="top" style="padding: 20px">
                                 <p><strong>小样本数据驱动的可信规划技术</strong>
@@ -153,137 +296,42 @@
                             </td>
                         </tr>
                     </table>
-                    <hr>
                 </div>
             </td>
             <td width="5%" align="left">
         </tr>
-
-        <!-- *******************************************************************************************************************-->
-        <tr>
-            <td width="5%"></td>
-            <td width="90%">
-                <div id="pub" class="contents">
-                    <h2> 代表论文 <a href="https://www.researchgate.net/profile/Li-Junxiang" target="_blank" style="font-size:0.6em;">详见[ResearchGate]</a></h2>
-                    共发表学术论文<b> 40 </b>余篇，包括IEEE T-ITS/T-VT, CVPR, ICRA, IROS等。
-                    <br>
-                    论文得到Yaochu Jin教授（长江特聘教授，欧洲科学院院士，IEEE Fellow），Serge Hoogendoorn教授（荷兰代尔夫特理工杰出教授），美国德克萨斯州大学奥斯汀分校Junmin Wang教授（SAE/ASME/AAIA/IEEE Fellow，ASME Charles Stark Draper 创新实践奖获得者）等专家的肯定和引用。
-                    <br>
-                    以下是近5年代表性论文:<span style="font-size: 0.6em;">
-                    (<span>&#8224</span> indicates equal contribution, and * indicates corresponding authorship)</span>
-                    <li><b>Junxiang Li&#8224</b>, Tao Wu&#8224, Xin Xu, Huijing Zhao. How to enhance the interpretability of learning-based motion planning for intelligent vehicles: A survey[J]. IEEE Transactions on Intelligent Transportation Systems, 2025, 26(8): 11227-11248. <span style="color: red;">(SCI, 中科院1区Top)</span>
-                    </li>
-                    <li>Bowen Li ,Tao Wu, Youjin Yu, <b>Junxiang Li</b>*. End-to-end autonomous guidance method integrated with mixture-of-experts for intelligent vehicles[J]. IEEE Transactions on Vehicular Technology, 2026, 75(2): 1976-1989.<span style="color: red;">(SCI, 中科院2区Top，自动化学会A类期刊)</span>
-                    </li>
-                    <li>Youjin Yu, <b>Junxiang Li*</b>, Bowen Li, Tao Wu* and Huijing Zhao. EES: A data-driven end-to-end escorting system via spatiotemporal feature fusion[J]. IEEE Robotics and Automation Letters, 2025, 10(11): 12253-12260.<span style="color: red;"> (SCI, 中科院2区Top，自动化学会A类期刊)</span></li>
-                    <li><b>Junxiang Li</b>, Liang Yao, Xin Xu, Bang Cheng, Junkai Ren. Deep reinforcement learning for
-                        pedestrian collision avoidance and human-machine cooperative driving[J]. Information Sciences
-                        (IS), 2020, 532: 110-124. <span style="color: red;">(SCI, JCR Q1, 自动化学会A类期刊, 中国兵工学会T1类期刊)</span></li>
-                    <li>Yang Chen, Xieyuanli Chen, <b>Junxiang Li</b>, Jie Tang and Tao Wu. “SinGeo: Unlock Single Model's Potential for Robust Cross-View Geo-Localization.” (2026).  Computer Vision and Pattern Recognition 2026. <span style="color: red;">（EI, CCF-A类会议）</span></li>
-                    <li>Chenggang Wang, Tao Wu, Pengnian Zhang, <b>Junxiang Li</b>*. 2025. Elevation-Aware Path Planning with Learning Optimal Probability for Autonomous Driving. 28th IEEE International Conference on
-                        Intelligent Transportation Systems. <span style="color: red;">(EI, 自动化学会A类会议)</span>
-                    </li>
-                    <li>Yubin Zeng, Tao Wu, Shouzheng Qi, <b>Junxiang Li</b>, Youjin Yu, Xingyu Duan. 2025. Simpler ls Better: Revisiting Doppler Velocity for Enhancing Moving Object Tracking with FMCW LiDAR. 2025 IROS. <span style="color: red;">（EI, 自动化学会A类会议）</span></li>
-                </div>
-            </td>
-            <td width="5%" align="left">
-        </tr>
-        <!-- *******************************************************************************************************************-->
-
-        <!-- *******************************************************************************************************************-->
-        <tr>
-            <td width="5%"></td>
-            <td width="90%">
-                <div id="patents" class="contents">
-                    <h2> 科研项目与影响 </a></h2>
-                    近5年，多次参与我军无人系统重大活动，主要负责地面无人平台自主规划系统。此外，
-                    <br>
-                    [1] 主持湖南省优青项目、后勤重点项目子项等科研项目<b> 2 </b>项，主持完成军委科技委173技术基金（重点项目）、××预研项目、国家自然科学基金青年基金等科研项目 <b>7</b> 项，作为骨干参与军委科技委173重大项目、国家自然科学基金区域联合基金等国家、军队重点项目20余项。
-                    <br>
-                    [2] 申请专利/软著 <b>15</b> 项（授权  <b>10</b> 项），科技成果转换1项。
-                    <br>
-                    [3] 参加“××2023”陆上无人系统挑战赛A1组比赛获第二名，在国家自然科学基金委员会举办“中国智能车未来挑战赛”获第三名。
-                    <hr>
-                </div>
-            </td>
-            <td width="5%" align="left">
-        </tr>
-        <!-- *******************************************************************************************************************-->
-
-        <!-- *******************************************************************************************************************-->
-        <tr>
-            <td width="5%"></td>
-            <td width="90%">
-                <div id="react" class="contents">
-                    <h2>教学与人才培养成果</h2>
-                    [1] 担任无人系统课程群教学团队二类岗教员，主讲《图像处理与理解》、《数字图像处理》等课程，始终秉持 “以研促教、有趣有料” 的风格，凭借精彩的课堂呈现与扎实的教学内容，赢得专家与学员的一致赞誉，校级与院级教学评价均为优秀。在2024年春季校教学能手比赛中获<b>一等奖（决赛第一名）</b>，2025年获教学创新大赛校三等奖。
-                    <br>
-                    [2] 课程建设成果方面，主讲课程中1门被评为全军精品在线教育课程，1门被评为校级精品课程，1门评为校级精品在线教育微课；获得<b>校教学成果奖二等奖</b>1项（排名第 8）。同时积极开展教学研究，参与<b>湖南省本科教改课题</b>1项（排名第3），主持完成校级本科教学教改课题1项。
-                    <br>
-                    [3] 在人才培养方面，被评为第二十届大学生智能车竞赛<b>全国优秀指导教师</b>。指导国家级大学生创新项目 1 项、省级大学生创新项目 3 项（其中 2 项在研，1 项优秀结题）。协助指导 3 名博士研究生（含本团队直博），指导 6 名硕士研究生（2人已顺利毕业）。全程指导9名本科生（4 人已毕业，3 人成功保研），1人本科毕业设计答辩优秀。担任学校“高地快车”俱乐部指导老师，指导学生参与全国大学生智能车竞赛、大学生工程创新大赛等高水平赛事，荣获全国一等奖1项、全国二等奖1项。
-                    <br>
-                    [4] 此外，积极投身专业与学科建设工作，深度参与国防科技大学未来技术学院（省级）的组建工作。
-                    <hr>
-                </div>
-            </td>
-            <td width="5%" ></td>
-        </tr>
-        <!-- *******************************************************************************************************************-->
-
         <!-- *******************************************************************************************************************-->
         <tr>
             <td width="5%"></td>
             <td width="90%">
                 <div id="nrollmentRequirements" class="contents">
                     <h2>招生信息</h2>
-                    每年有若干“菁英生源计划”读研指标及普通保研指标，欢迎对研究方向感兴趣的同学加入团队，意向读研同学请在<u>大三下学期（第二季度）结束前</u>邮箱联系
-                    <span style="color: red;">（需附前2.5年专业排名+学术成果/获奖证书）</span>。
-                    <br>此外，对意向读研同学的一点<b>要求</b>：
-                    <li>掌握Python或C++语言，熟悉Linux系统及ROS，参与完成过至少1项项目开发工作（含大创项目）。获得智能车竞赛、Robomaster等A类学科竞赛国二以上奖励的同学优先。
-                        （P.S.本科无编程基础/编程能力不够牢固/对编程不感兴趣的同学，千万不要冒延毕甚至肄业的风险，建议选择其他方向。）</li>
-                    <li>熟练运用英语，能够撰写英文学术论文及学术交流。发表过EI、SCI论文优先。</li>
-                    <li>积极主动，有毅力，能够按时、高质量地交流研究进展。</li>
-                    <hr>
+                    欢迎对研究方向感兴趣的同学加入团队，每年有若干“菁英生源计划”读研指标及保研指标，有意者请在大三下学期（二季度前）邮件联系。
+                    基本要求：
+                    <li>熟悉Linux系统、ROS，日常使用Python开发，独立完成过至少1项项目的开发工作（智能车竞赛、Robomaster等获奖同学优先）。
+                        </li>
+                    <li>熟练运用英语，能够撰写英文学术论文及学术交流。</li>
+                    <li>积极主动、能自律，能按时高质交流进展。</li>
+                </div>
             </td>
             <td width="5%"></td>
         </tr>
         <!-- *******************************************************************************************************************-->
-
-        <!-- *******************************************************************************************************************-->
-        <tr>
-            <td width="5%"></td>
-            <td width="90%">
-                <div id="LabCondition" class="contents">
-                    <h2>我能为你提供什么？</h2>
-                    除了国防科技大学提供的所有科研、学习、生活条件外，我还能为你提供以下方面的支持：
-                        <li>前沿的技术方向为深造或工作提供了坚实的底气：
-                            近年来研究室的地方硕士除了读博深造外，分别入职兵器202所、湖南航天等军工企业和华为、大疆、阿里、腾讯、蔚小理、Momenta等无人系统领域著名民营企业。</li>
-                        <li>齐全的科研设备：各种类型无人车实验平台十余套，多旋翼无人机2套，可供大家开展实验研究；多台多卡GTX 3090 GPU服务器，保障大数据与神经网络研究所需算力。</li>
-                        <li>综合的能力培养：只要按照培养规划执行，就能有效提高学术写作、交流表达、实践动手和组织协调等综合能力。</li>
-                    <img src="./pic/LabCondition2.png" alt="实验室条件" style="width: 100%; height: auto; display: block; margin: 0 auto">
-                    <hr>
-            </td>
-            <td width="5%"></td>
-        </tr>
-        <!-- *******************************************************************************************************************-->
-
         <!-- *******************************************************************************************************************-->
         <tr>
             <td width="5%"></td>
             <td width="90">
                 <div id="footer">
                     <div id="footer-text"></div>
+                    <p style="text-align:center;">
+                        <br>
+                        &copy; Junxiang Li | Last updated: Oct. 16 2026
+                    </p>
                 </div>
-                <p>
-                <center>
-                    <br>
-                    &copy; Junxiang Li | Last updated: May 16 2026
-
-                </center>
-                </p>
+            </td>
+            <td width="5%"></td>
+        </tr>
+    </table>
 </div>
-</td>
-<td width="5%"></td>
-</tr>
 </body>
 </html>
